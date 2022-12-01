@@ -1,0 +1,6 @@
+.yarn
+.vscode
+.next
+.husky
+public
+yarn.lock

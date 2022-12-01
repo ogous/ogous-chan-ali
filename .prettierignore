@@ -1,0 +1,5 @@
+.yarn
+.next
+.husky
+public
+yarn.lock
