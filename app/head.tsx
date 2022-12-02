@@ -1,3 +1,5 @@
+import Script from 'next/script'
+
 export default function Head() {
   return (
     <>
@@ -23,6 +25,22 @@ export default function Head() {
         href="/favicon/favicon-16x16.png"
       />
       <link rel="manifest" href="/favicon/site.webmanifest" />
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env['NEXT_PUBLIC_GOOGLE_ANALYTICS']}`}
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env['NEXT_PUBLIC_GOOGLE_ANALYTICS']}');
+            gtag('consent', 'default', {
+              'ad_storage': 'denied',
+              'analytics_storage': 'denied'
+            });
+            `}
+      </Script>
     </>
   )
 }
