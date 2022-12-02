@@ -45,7 +45,7 @@ export default function HomePage() {
     }
   ]
   return (
-    <div className="flex min-h-screen items-center justify-center">
+    <div className="relative flex min-h-screen items-center justify-center">
       <Image
         src={HeroImage}
         alt="web3 world"
