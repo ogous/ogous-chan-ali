@@ -22,6 +22,26 @@ export default function HomePage() {
     {
       link: 'https://github.com/ogous',
       slug: 'github'
+    },
+    {
+      link: 'https://www.hackerrank.com/oguzxan_ali',
+      slug: 'hackerrank'
+    },
+    {
+      link: 'https://app.codesignal.com/profile/ogouschanali',
+      slug: 'codesignal'
+    },
+    {
+      link: 'https://stackoverflow.com/users/11144413/ogous-chan-ali',
+      slug: 'stackoverflow'
+    },
+    {
+      link: 'https://g.dev/ogous',
+      slug: 'googledeveloper'
+    },
+    {
+      link: 'https://www.upwork.com/freelancers/~01f06eb46718139e39',
+      slug: 'upwork'
     }
   ]
   return (
@@ -37,6 +57,7 @@ export default function HomePage() {
           src={OgousImage}
           alt="Ogous Chan Ali"
           width={200}
+          loading="lazy"
           className="z-10 -mb-4 rounded-full border-4 border-layer border-opacity-20 shadow-lg"
         />
         <div className="rounded-2xl border-4 border-layer border-opacity-20 bg-layer bg-opacity-10 p-4">
@@ -67,7 +88,7 @@ export default function HomePage() {
             </p>
           </div>
           <br></br>
-          <ul className="flex items-center justify-center">
+          <ul className="flex flex-wrap items-center justify-center">
             {socials.map((i, idx) => (
               <li
                 key={i.slug}
