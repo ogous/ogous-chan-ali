@@ -30,6 +30,7 @@ export default function HomePage() {
         src={HeroImage}
         alt="web3 world"
         className="absolute inset-0 z-[-1] h-full w-full rounded-lg object-cover blur-md"
+        loading="lazy"
       />
       <div className="flex max-w-screen-xl flex-1 flex-col items-center justify-center">
         <Image
@@ -42,29 +43,29 @@ export default function HomePage() {
           <h1 className="mb-6 mt-8 bg-gradient-to-r from-tertiary via-primary to-secondary bg-clip-text text-center font-lato text-6xl font-black leading-[70px] text-transparent">
             Ogous Chan Ali
           </h1>
-          <p className="text-center font-poppins">
-            Talks about
-            <br />
-            <br />
-            {tags.map((tag) => (
-              <span
-                key={tag}
-                className={
-                  'mr-1 rounded-full bg-gradient-to-r from-tertiary via-primary to-secondary py-1 px-3 font-bold text-layer'
-                }
-              >
-                #{tag}
-              </span>
-            ))}
-            <br />
-            <br />
-            <span className="inline-block max-w-md">
+          <div className="flex flex-col items-center justify-center text-center font-poppins">
+            <span className="mb-8">Talks about</span>
+
+            <p className="mb-6 flex flex-col md:flex-row">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className={
+                    'mb-1 rounded-full bg-gradient-to-r from-tertiary via-primary to-secondary py-1 px-3 font-bold text-layer md:mr-1'
+                  }
+                >
+                  #{tag}
+                </span>
+              ))}
+            </p>
+
+            <p className="inline-block max-w-md text-center">
               With over ten years experience as a software engineer, team
               leader, product owner in the tech industry, I am enthusiastically
               focused on building highly scalable applications and
               infrastructure solutions for my partners.
-            </span>
-          </p>
+            </p>
+          </div>
           <br></br>
           <ul className="flex items-center justify-center">
             {socials.map((i, idx) => (
