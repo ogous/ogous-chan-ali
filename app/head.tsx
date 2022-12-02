@@ -26,7 +26,7 @@ export default function Head() {
       />
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env['NEXT_PUBLIC_GOOGLE_ANALYTICS']}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env['NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID']}`}
         strategy="afterInteractive"
       />
       <Script id="gtag-init" strategy="afterInteractive">
@@ -34,7 +34,7 @@ export default function Head() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env['NEXT_PUBLIC_GOOGLE_ANALYTICS']}');
+            gtag('config', '${process.env['NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID']}');
             gtag('consent', 'default', {
               'ad_storage': 'denied',
               'analytics_storage': 'denied'
