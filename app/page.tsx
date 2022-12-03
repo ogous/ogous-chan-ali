@@ -42,6 +42,10 @@ export default function HomePage() {
     {
       link: 'https://www.upwork.com/freelancers/~01f06eb46718139e39',
       slug: 'upwork'
+    },
+    {
+      link: 'https://superpeer.com/ogous',
+      slug: 'superpeer'
     }
   ]
   return (
@@ -49,7 +53,7 @@ export default function HomePage() {
       <Image
         src={HeroImage}
         alt="web3 world"
-        className="absolute inset-0 z-[-1] h-full w-full rounded-lg object-cover blur-md"
+        className="absolute inset-0 z-[-1] h-full w-full rounded-lg object-cover blur-sm"
         loading="lazy"
       />
       <div className="flex max-w-screen-xl flex-1 flex-col items-center justify-center">
@@ -65,7 +69,7 @@ export default function HomePage() {
             Ogous Chan Ali
           </h1>
           <div className="flex flex-col items-center justify-center text-center font-poppins">
-            <span className="mb-8">Talks about</span>
+            <span className="mb-8">Thinks about and hacks with:</span>
 
             <p className="mb-6 flex flex-col md:flex-row">
               {tags.map((tag) => (
