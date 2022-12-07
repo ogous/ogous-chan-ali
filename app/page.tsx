@@ -5,7 +5,7 @@ import OgousImage from 'public/images/ogous.jpeg'
 import clsx from 'clsx'
 
 export default function HomePage() {
-  const tags = ['web3', 'javascript', 'cloudcomputing', 'softwarearchitecture']
+  const tags = ['javascript', 'softwarearchitecture', 'web3', 'cloudcomputing']
   const socials = [
     {
       link: 'mailto:hi@ogous.dev',
