@@ -5,7 +5,7 @@ import OgousImage from 'public/images/ogous.jpeg'
 import clsx from 'clsx'
 
 export default function HomePage() {
-  const tags = ['javascript', 'softwarearchitecture', 'web3', 'cloudcomputing']
+  const tags = ['javascript', 'softwarearchitecture', 'cloudcomputing', 'web3']
   const socials = [
     {
       link: 'mailto:hi@ogous.dev',
@@ -53,7 +53,7 @@ export default function HomePage() {
       <Image
         src={HeroImage}
         alt="web3 world"
-        className="absolute inset-0 z-[-1] h-full w-full rounded-lg object-cover blur-sm"
+        className="absolute inset-0 z-[-1] h-full w-full rounded-lg object-cover blur-lg"
         loading="lazy"
       />
       <div className="flex max-w-screen-xl flex-1 flex-col items-center justify-center p-4">
@@ -83,11 +83,21 @@ export default function HomePage() {
             ))}
           </p>
 
-          <p className="inline-block max-w-md text-center">
-            With over ten years experience as a software engineer, team leader,
-            product owner in the tech industry, I am enthusiastically focused on
-            building highly scalable applications and infrastructure solutions
-            for my partners.
+          <p className="inline-block max-w-[660px] text-center">
+            I have very strong technical experiences on providing highly
+            scalable end-to-end software solutions ranging from cloud
+            architecture to backend services and modern frontend development. I
+            am enthusiastically focused on the modern Javascript/Typescript
+            ecosystem, and I have expertises on React for web, React Native for
+            mobile and Node.js for back-end. I have lately participated in the
+            world of web3, providing solutions about bridging web2 & web3.
+            <br />
+            <br />
+            With the last 5 years of managerial experiences, I am a &apos;one
+            man show&apos; to build and boost startups, a managerial engineer
+            for growing operations and a director for big teams. I am a
+            generalist and a perfectionist who never hesitates to get his hands
+            dirty.
           </p>
         </div>
         <br></br>
