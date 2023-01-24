@@ -24,6 +24,10 @@ export default function HomePage() {
       slug: 'github'
     },
     {
+      link: 'https://www.producthunt.com/@oguzhan_ali',
+      slug: 'producthunt'
+    },
+    {
       link: 'https://www.hackerrank.com/oguzxan_ali',
       slug: 'hackerrank'
     },
