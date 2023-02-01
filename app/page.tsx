@@ -12,41 +12,45 @@ export default function HomePage() {
       slug: 'email'
     },
     {
-      link: 'https://twitter.com/ogouschanali',
-      slug: 'twitter'
+      link: 'https://github.com/ogous',
+      slug: 'github'
     },
     {
       link: 'https://www.linkedin.com/in/oguzhanali/',
       slug: 'linkedin'
     },
     {
-      link: 'https://github.com/ogous',
-      slug: 'github'
+      link: 'https://ogous.medium.com/',
+      slug: 'medium'
     },
     {
       link: 'https://www.producthunt.com/@oguzhan_ali',
       slug: 'producthunt'
     },
     {
-      link: 'https://www.hackerrank.com/oguzxan_ali',
-      slug: 'hackerrank'
+      link: 'https://twitter.com/ogouschanali',
+      slug: 'twitter'
     },
-    {
-      link: 'https://app.codesignal.com/profile/ogouschanali',
-      slug: 'codesignal'
-    },
-    {
-      link: 'https://stackoverflow.com/users/11144413/ogous-chan-ali',
-      slug: 'stackoverflow'
-    },
-    {
-      link: 'https://g.dev/ogous',
-      slug: 'googledeveloper'
-    },
-    {
-      link: 'https://www.upwork.com/freelancers/~01f06eb46718139e39',
-      slug: 'upwork'
-    },
+    // {
+    //   link: 'https://www.hackerrank.com/oguzxan_ali',
+    //   slug: 'hackerrank'
+    // },
+    // {
+    //   link: 'https://app.codesignal.com/profile/ogouschanali',
+    //   slug: 'codesignal'
+    // },
+    // {
+    //   link: 'https://stackoverflow.com/users/11144413/ogous-chan-ali',
+    //   slug: 'stackoverflow'
+    // },
+    // {
+    //   link: 'https://g.dev/ogous',
+    //   slug: 'googledeveloper'
+    // },
+    // {
+    //   link: 'https://www.upwork.com/freelancers/~01f06eb46718139e39',
+    //   slug: 'upwork'
+    // },
     {
       link: 'https://superpeer.com/ogous',
       slug: 'superpeer'
