@@ -12,6 +12,10 @@ export default function HomePage() {
       slug: 'email'
     },
     {
+      link: 'https://cal.com/ogous',
+      slug: 'cal'
+    },
+    {
       link: 'https://github.com/ogous',
       slug: 'github'
     },
@@ -30,7 +34,7 @@ export default function HomePage() {
     {
       link: 'https://twitter.com/ogouschanali',
       slug: 'twitter'
-    },
+    }
     // {
     //   link: 'https://www.hackerrank.com/oguzxan_ali',
     //   slug: 'hackerrank'
@@ -51,10 +55,10 @@ export default function HomePage() {
     //   link: 'https://www.upwork.com/freelancers/~01f06eb46718139e39',
     //   slug: 'upwork'
     // },
-    {
-      link: 'https://superpeer.com/ogous',
-      slug: 'superpeer'
-    }
+    // {
+    //   link: 'https://superpeer.com/ogous',
+    //   slug: 'superpeer'
+    // }
   ]
   return (
     <div className="relative flex min-h-screen items-center justify-center pb-6">
