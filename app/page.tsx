@@ -105,11 +105,9 @@ export default function HomePage() {
             world of web3, providing solutions about bridging web2 & web3.
             <br />
             <br />
-            With the last 5 years of managerial experiences, I am a &apos;one
-            man show&apos; to build and boost startups, a managerial engineer
-            for growing operations and a director for big teams. I am a
-            generalist and a perfectionist who never hesitates to get his hands
-            dirty.
+            With the last 5 years of managerial experiences, I am a &apos;wild
+            card&apos; to build and boost startups, a managerial engineer for
+            growing operations and a director for big teams.
           </p>
         </div>
         <br></br>
