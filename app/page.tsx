@@ -96,10 +96,10 @@ export default function HomePage() {
           </p>
 
           <p className="inline-block max-w-[660px] text-center">
-            I have very strong technical experiences on providing highly
-            scalable end-to-end software solutions ranging from cloud
-            architecture to backend services and modern frontend development. I
-            am enthusiastically focused on the modern Javascript/Typescript
+            I have strong technical experiences on providing highly scalable
+            end-to-end software solutions ranging from cloud architecture to
+            backend services and modern frontend development. I am
+            enthusiastically focused on the modern Javascript/Typescript
             ecosystem, and I have expertises on React for web, React Native for
             mobile and Node.js for back-end. I have lately participated in the
             world of web3, providing solutions about bridging web2 & web3.
