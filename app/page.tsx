@@ -106,8 +106,8 @@ export default function HomePage() {
             <br />
             <br />
             With the last 5 years of managerial experiences, I am a &apos;wild
-            card&apos; to build and boost startups, a managerial engineer for
-            growing operations and a director for big teams.
+            card&apos; to build and boost startups and a managerial engineer for
+            growing operations.
           </p>
         </div>
         <br></br>
