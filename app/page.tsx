@@ -99,14 +99,14 @@ export default function HomePage() {
             I have strong technical experiences on providing highly scalable
             end-to-end software solutions ranging from cloud architecture to
             backend services and modern frontend development. I am
-            enthusiastically focused on the modern Javascript/Typescript
-            ecosystem, and I have expertises on React for web, React Native for
-            mobile and Node.js for back-end. I have lately participated in the
-            world of web3, providing solutions about bridging web2 & web3.
+            enthusiastically focused on the Javascript/Typescript ecosystem, and
+            I have expertises on React for web, React Native for mobile and
+            Node.js for back-end. I have lately participated in the world of
+            web3, providing solutions about bridging web2 & web3.
             <br />
             <br />
             With the last 5 years of managerial experiences, I am a &apos;wild
-            card&apos; to build and boost startups and a managerial engineer for
+            card&apos; to build and boost startups and a technology leader for
             growing operations.
           </p>
         </div>
