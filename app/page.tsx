@@ -32,7 +32,7 @@ export default function HomePage() {
       slug: 'producthunt'
     },
     {
-      link: 'https://twitter.com/ogouschanali',
+      link: 'https://twitter.com/ogouschan',
       slug: 'twitter'
     }
     // {
