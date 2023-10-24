@@ -20,7 +20,7 @@ export default function HomePage() {
       slug: 'github'
     },
     {
-      link: 'https://www.linkedin.com/in/oguzhanali/',
+      link: 'https://www.linkedin.com/in/ogous/',
       slug: 'linkedin'
     },
     {
@@ -28,7 +28,7 @@ export default function HomePage() {
       slug: 'medium'
     },
     {
-      link: 'https://www.producthunt.com/@oguzhan_ali',
+      link: 'https://www.producthunt.com/@ogous',
       slug: 'producthunt'
     },
     {
@@ -36,11 +36,11 @@ export default function HomePage() {
       slug: 'twitter'
     }
     // {
-    //   link: 'https://www.hackerrank.com/oguzxan_ali',
+    //   link: 'https://www.hackerrank.com/ogous',
     //   slug: 'hackerrank'
     // },
     // {
-    //   link: 'https://app.codesignal.com/profile/ogouschanali',
+    //   link: 'https://app.codesignal.com/profile/ogous',
     //   slug: 'codesignal'
     // },
     // {
