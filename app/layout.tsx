@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { Lato, Poppins } from '@next/font/google'
+import { Lato, Poppins } from 'next/font/google'
 import Header from './header'
 import Footer from './footer'
 import clsx from 'clsx'
