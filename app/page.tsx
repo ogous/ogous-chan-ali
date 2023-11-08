@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import HeroImage from 'public/images/hero.jpeg'
-import OgousImage from 'public/images/ogous.jpeg'
+import HeroImage from 'public/hero.jpeg'
+import OgousImage from 'public/ogous.jpeg'
 import clsx from 'clsx'
 
 export default function HomePage() {
@@ -36,7 +36,7 @@ export default function HomePage() {
       slug: 'twitter'
     },
     {
-      link: 'https://ogous.dev/cv.pdf',
+      link: '/cv.pdf',
       slug: 'CV'
     }
     // {
