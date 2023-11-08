@@ -34,7 +34,15 @@ export default function HomePage() {
     {
       link: 'https://twitter.com/ogouschan',
       slug: 'twitter'
+    },
+    {
+      link: 'https://ogous.dev/cv.pdf',
+      slug: 'CV'
     }
+    // {
+    //   link: "https://www.codewars.com/users/ogous",
+    //   slug: "codewars"
+    // },
     // {
     //   link: 'https://www.hackerrank.com/ogous',
     //   slug: 'hackerrank'
