@@ -95,7 +95,7 @@ export default function HomePage() {
               <span
                 key={tag}
                 className={
-                  'mb-1 rounded-full bg-gradient-to-r from-tertiary via-primary to-secondary py-1 px-3 font-bold text-layer md:mr-1'
+                  'mb-1 rounded-full bg-gradient-to-r from-tertiary via-primary to-secondary px-3 py-1 font-bold text-layer md:mr-1'
                 }
               >
                 #{tag}
