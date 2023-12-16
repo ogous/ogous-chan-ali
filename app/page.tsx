@@ -84,7 +84,7 @@ export default function HomePage() {
           loading="lazy"
           className="z-10 -mb-4 rounded-full border-4 border-layer border-opacity-20 shadow-lg"
         />
-        <h1 className="mb-6 mt-8 bg-gradient-to-r from-tertiary via-primary to-secondary bg-clip-text text-center font-lato text-6xl font-black leading-[70px] text-transparent">
+        <h1 className="mb-6 mt-8 bg-gradient-to-r from-tertiary via-primary to-secondary bg-clip-text text-center font-lato text-5xl font-black leading-[54px] text-transparent md:text-6xl md:leading-[70px]">
           Ogous Chan Ali
         </h1>
         <div className="flex flex-col items-center justify-center text-center font-poppins">
@@ -119,15 +119,16 @@ export default function HomePage() {
           </p>
         </div>
         <br></br>
-        <ul className="bottom-0 left-0 mx-auto flex w-full flex-wrap items-center justify-center gap-2 px-4 pb-4 md:absolute">
+        <ul className="bottom-0 left-0 mx-auto flex w-full flex-wrap items-center justify-center gap-2 space-y-2 px-4 pb-4 md:absolute">
           {socials.map((i) => (
-            <li
-              key={i.slug}
-              className={clsx(
-                'rounded-full bg-black/20 px-3 py-1 backdrop:blur-xl'
-              )}
-            >
-              <Link href={i.link} target={'_blank'} className=" capitalize">
+            <li key={i.slug}>
+              <Link
+                href={i.link}
+                target={'_blank'}
+                className={clsx(
+                  'rounded-full bg-black/20 px-3 py-2 capitalize backdrop:blur-xl'
+                )}
+              >
                 {i.slug}
               </Link>
             </li>
