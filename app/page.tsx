@@ -13,7 +13,7 @@ export default function HomePage() {
     },
     {
       link: 'https://cal.com/ogous',
-      slug: 'cal'
+      slug: 'calendar'
     },
     {
       link: 'https://github.com/ogous',
@@ -90,12 +90,12 @@ export default function HomePage() {
         <div className="flex flex-col items-center justify-center text-center font-poppins">
           <span className="mb-8">Thinks about and hacks with:</span>
 
-          <p className="mb-6 flex flex-col md:flex-row">
+          <p className="mb-6 flex flex-col gap-2 md:flex-row">
             {tags.map((tag) => (
               <span
                 key={tag}
                 className={
-                  'mb-1 rounded-full bg-gradient-to-r from-tertiary via-primary to-secondary px-3 py-1 font-bold text-layer md:mr-1'
+                  'mb-1 rounded-full bg-gradient-to-r from-tertiary via-primary to-secondary px-3 py-1 font-bold text-layer backdrop:blur-xl'
                 }
               >
                 #{tag}
@@ -119,17 +119,16 @@ export default function HomePage() {
           </p>
         </div>
         <br></br>
-        <ul className="bottom-0 left-0 mx-auto flex w-full flex-wrap items-center justify-center px-4 pb-4 md:absolute">
-          {socials.map((i, idx) => (
+        <ul className="bottom-0 left-0 mx-auto flex w-full flex-wrap items-center justify-center gap-2 px-4 pb-4 md:absolute">
+          {socials.map((i) => (
             <li
               key={i.slug}
               className={clsx(
-                idx !== socials.length - 1 &&
-                  'mr-2 after:ml-2 after:content-["|"]'
+                'rounded-full bg-black/20 px-3 py-1 backdrop:blur-xl'
               )}
             >
-              <Link href={i.link} target={'_blank'}>
-                {i.slug.charAt(0).toUpperCase() + i.slug.slice(1)}
+              <Link href={i.link} target={'_blank'} className=" capitalize">
+                {i.slug}
               </Link>
             </li>
           ))}
