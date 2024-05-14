@@ -70,10 +70,11 @@ export default function HomePage() {
   ]
   return (
     <div className="relative flex min-h-screen items-center justify-center pb-6">
+      <div className="forced-colors:hidden absolute inset-0 z-[-1] bg-bgnoise bg-top opacity-10" />
       <Image
         src={HeroImage}
         alt="web3 world"
-        className="absolute inset-0 z-[-1] h-full w-full rounded-lg object-cover blur-lg"
+        className="absolute inset-0 z-[-2] h-full w-full rounded-lg object-cover blur-md"
         loading="lazy"
       />
       <div className="flex max-w-screen-xl flex-1 flex-col items-center justify-center p-4">

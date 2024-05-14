@@ -15,6 +15,9 @@ module.exports = {
         secondary: '#af5dc3',
         tertiary: '#57bd50',
         text: '#cccccc'
+      },
+      backgroundImage: {
+        bgnoise: "url('/bg-noise.png')"
       }
     }
   },
