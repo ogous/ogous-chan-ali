@@ -110,8 +110,8 @@ export default function HomePage() {
             backend services and modern frontend development. I am
             enthusiastically focused on the Javascript/Typescript ecosystem, and
             I have expertises on React for web, React Native for mobile and
-            Node.js for back-end. I have lately participated in the world of
-            web3, providing solutions about bridging web2 & web3.
+            Node.js for back-end. I have participated in the world of web3,
+            providing solutions about bridging web2 & web3.
             <br />
             <br />
             With the last 5 years of managerial experiences, I am a &apos;wild
