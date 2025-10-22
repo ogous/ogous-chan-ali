@@ -1,0 +1,55 @@
+{
+  "name": "ogous-chan-ali",
+  "version": "0.1.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "author": "Ogous Chan Ali",
+  "license": "wtfpl",
+  "bugs": {
+    "url": "https://github.com/Capsule-Corp-Labs/orb-wars/issues"
+  },
+  "homepage": "https://github.com/Capsule-Corp-Labs/orb-wars#readme",
+  "keywords": [
+    "software engineering",
+    "portfolio",
+    "blog",
+    "javascript",
+    "web3",
+    "blockchain"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.18",
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.53.0",
+    "eslint-config-next": "14.0.1",
+    "eslint-config-prettier": "9.0.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.2",
+    "pinst": "3.0.0",
+    "postcss": "8.4.19",
+    "prettier": "3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.7",
+    "tailwindcss": "3.3.5",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "clsx": "2.0.0",
+    "next": "14.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.6"
+  },
+  "packageManager": "yarn@3.3.0"
+}
