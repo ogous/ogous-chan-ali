@@ -102,14 +102,7 @@ export default function HomePage() {
             ))}
           </p>
           <p className="inline-block max-w-[660px] text-center">
-            Founding engineer at two VC-backed startups, with over a decade of
-            experience in web development. Former CTO and team lead, Ogous
-            brings technical leadership and product execution skills.
-            Passionately engaged in the blockchain space for the past 4 years.
-            <br />
-            <br />
-            Focused to the Javascript ecosystem, React for web, React Native for
-            mobile, Node.js for back-end and Solidity for Smart Contracts.
+            Senior Web3 Software Engineer with 10+ years of JavaScript/TypeScript experience, including 6+ years in full-stack development and 4+ years in blockchain and DeFi. I have spent years engineering scalable frontend and backend systems while tackling the unique challenges of competitive blockchain environments. Leveraging expertise in React, Next.js, Node.js, and React Native, along with experience as a founding engineer, I bring both strong technical execution and strategic product insight to blockchain and fintech ecosystems.
           </p>
         </div>
         <br></br>
